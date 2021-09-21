@@ -1,5 +1,16 @@
 (this["webpackJsonptwitter"] = this["webpackJsonptwitter"] || []).push([["main"],{
 
+/***/ "./node_modules/axios/index.js":
+/*!*************************************!*\
+  !*** ./node_modules/axios/index.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\spira\\OneDrive\\Documents\\SDMM student files\\Segid, Yafet\\twitter\\Twitter-clone\\client\\node_modules\\axios\\index.js'");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css":
 /*!************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/App.css ***!
@@ -15,7 +26,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".header {\n  /* margin-left: 570px; */\n  margin-top: 25px;\n  margin-bottom: 15px;\n  display: flex;\n\n}\n.home{\n  margin-left: 540px;\n\n}\n\n.search {\n  display: inline;\n  /* margin: 20px; */\n  font-size: 30px;\n  padding-left:30px;\n  text-decoration: none;  \n  \n}\n.search:hover {\n}\n\n.logo{\n  margin-left: 30px;\n  width: 60px;\n  height: 60px;\n  \n}", "",{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA;EACE,wBAAwB;EACxB,gBAAgB;EAChB,mBAAmB;EACnB,aAAa;;AAEf;AACA;EACE,kBAAkB;;AAEpB;;AAEA;EACE,eAAe;EACf,kBAAkB;EAClB,eAAe;EACf,iBAAiB;EACjB,qBAAqB;;AAEvB;AACA;AACA;;AAEA;EACE,iBAAiB;EACjB,WAAW;EACX,YAAY;;AAEd","sourcesContent":[".header {\n  /* margin-left: 570px; */\n  margin-top: 25px;\n  margin-bottom: 15px;\n  display: flex;\n\n}\n.home{\n  margin-left: 540px;\n\n}\n\n.search {\n  display: inline;\n  /* margin: 20px; */\n  font-size: 30px;\n  padding-left:30px;\n  text-decoration: none;  \n  \n}\n.search:hover {\n}\n\n.logo{\n  margin-left: 30px;\n  width: 60px;\n  height: 60px;\n  \n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, ".header {\r\n  /* margin-left: 570px; */\r\n  margin-top: 25px;\r\n  margin-bottom: 15px;\r\n  display: flex;\r\n\r\n}\r\n.home{\r\n  margin-left: 540px;\r\n\r\n}\r\n\r\n.search {\r\n  display: inline;\r\n  /* margin: 20px; */\r\n  font-size: 30px;\r\n  padding-left:30px;\r\n  text-decoration: none;  \r\n  \r\n}\r\n.search:hover {\r\n}\r\n\r\n.logo{\r\n  margin-left: 30px;\r\n  width: 60px;\r\n  height: 60px;\r\n  \r\n}", "",{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA;EACE,wBAAwB;EACxB,gBAAgB;EAChB,mBAAmB;EACnB,aAAa;;AAEf;AACA;EACE,kBAAkB;;AAEpB;;AAEA;EACE,eAAe;EACf,kBAAkB;EAClB,eAAe;EACf,iBAAiB;EACjB,qBAAqB;;AAEvB;AACA;AACA;;AAEA;EACE,iBAAiB;EACjB,WAAW;EACX,YAAY;;AAEd","sourcesContent":[".header {\r\n  /* margin-left: 570px; */\r\n  margin-top: 25px;\r\n  margin-bottom: 15px;\r\n  display: flex;\r\n\r\n}\r\n.home{\r\n  margin-left: 540px;\r\n\r\n}\r\n\r\n.search {\r\n  display: inline;\r\n  /* margin: 20px; */\r\n  font-size: 30px;\r\n  padding-left:30px;\r\n  text-decoration: none;  \r\n  \r\n}\r\n.search:hover {\r\n}\r\n\r\n.logo{\r\n  margin-left: 30px;\r\n  width: 60px;\r\n  height: 60px;\r\n  \r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -37,7 +48,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "body {\n  background-color: white;\n}\nimg {\n  display: flex;\n}\n.topList {\n  background-color: rgb(255, 254, 254);\n  display: flex;\n  margin-top: 40px;\n  margin-left: 4%;\n}\n\n.topList img:hover {\n  box-shadow: 0 0 10px#1DA1F2;\n}\n", "",{"version":3,"sources":["webpack://src/Favorite/Favorite.css"],"names":[],"mappings":"AAAA;EACE,uBAAuB;AACzB;AACA;EACE,aAAa;AACf;AACA;EACE,oCAAoC;EACpC,aAAa;EACb,gBAAgB;EAChB,eAAe;AACjB;;AAEA;EACE,2BAA2B;AAC7B","sourcesContent":["body {\n  background-color: white;\n}\nimg {\n  display: flex;\n}\n.topList {\n  background-color: rgb(255, 254, 254);\n  display: flex;\n  margin-top: 40px;\n  margin-left: 4%;\n}\n\n.topList img:hover {\n  box-shadow: 0 0 10px#1DA1F2;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "body {\r\n  background-color: white;\r\n}\r\nimg {\r\n  display: flex;\r\n}\r\n.topList {\r\n  background-color: rgb(255, 254, 254);\r\n  display: flex;\r\n  margin-top: 40px;\r\n  margin-left: 4%;\r\n}\r\n\r\n.topList img:hover {\r\n  box-shadow: 0 0 10px#1DA1F2;\r\n}\r\n", "",{"version":3,"sources":["webpack://src/Favorite/Favorite.css"],"names":[],"mappings":"AAAA;EACE,uBAAuB;AACzB;AACA;EACE,aAAa;AACf;AACA;EACE,oCAAoC;EACpC,aAAa;EACb,gBAAgB;EAChB,eAAe;AACjB;;AAEA;EACE,2BAA2B;AAC7B","sourcesContent":["body {\r\n  background-color: white;\r\n}\r\nimg {\r\n  display: flex;\r\n}\r\n.topList {\r\n  background-color: rgb(255, 254, 254);\r\n  display: flex;\r\n  margin-top: 40px;\r\n  margin-left: 4%;\r\n}\r\n\r\n.topList img:hover {\r\n  box-shadow: 0 0 10px#1DA1F2;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -59,7 +70,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "body {\n  background-color: white;\n  box-sizing: border-box;\n}\n\n.search-tweet {\n  border: 1px solid #1da1f2;\n  border-radius: 20px;\n  font-size: 20px;\n  padding: 7px;\n  padding-left: 20px;\n  margin-left: 350px;\n  margin-top: 30px;\n  /* outline: none; */\n  color: black;\n}\n.tweetFrame {\n  list-style-type: none;\n  margin-top: 50px;\n}\n\n.tweetBox {\n  margin-bottom: 20px;\n  border: 1px solid black;\n  margin-left: 300px;\n  margin-right: 300px;\n  border-radius: 30px;\n  padding: 15px;\n}\n", "",{"version":3,"sources":["webpack://src/Search/Search.css"],"names":[],"mappings":"AAAA;EACE,uBAAuB;EACvB,sBAAsB;AACxB;;AAEA;EACE,yBAAyB;EACzB,mBAAmB;EACnB,eAAe;EACf,YAAY;EACZ,kBAAkB;EAClB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,YAAY;AACd;AACA;EACE,qBAAqB;EACrB,gBAAgB;AAClB;;AAEA;EACE,mBAAmB;EACnB,uBAAuB;EACvB,kBAAkB;EAClB,mBAAmB;EACnB,mBAAmB;EACnB,aAAa;AACf","sourcesContent":["body {\n  background-color: white;\n  box-sizing: border-box;\n}\n\n.search-tweet {\n  border: 1px solid #1da1f2;\n  border-radius: 20px;\n  font-size: 20px;\n  padding: 7px;\n  padding-left: 20px;\n  margin-left: 350px;\n  margin-top: 30px;\n  /* outline: none; */\n  color: black;\n}\n.tweetFrame {\n  list-style-type: none;\n  margin-top: 50px;\n}\n\n.tweetBox {\n  margin-bottom: 20px;\n  border: 1px solid black;\n  margin-left: 300px;\n  margin-right: 300px;\n  border-radius: 30px;\n  padding: 15px;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "body {\r\n  background-color: white;\r\n  box-sizing: border-box;\r\n}\r\n\r\n.search-tweet {\r\n  border: 1px solid #1da1f2;\r\n  border-radius: 20px;\r\n  font-size: 20px;\r\n  padding: 7px;\r\n  padding-left: 20px;\r\n  margin-left: 350px;\r\n  margin-top: 30px;\r\n  /* outline: none; */\r\n  color: black;\r\n}\r\n.tweetFrame {\r\n  list-style-type: none;\r\n  margin-top: 50px;\r\n}\r\n\r\n.tweetBox {\r\n  margin-bottom: 20px;\r\n  border: 1px solid black;\r\n  margin-left: 300px;\r\n  margin-right: 300px;\r\n  border-radius: 30px;\r\n  padding: 15px;\r\n}\r\n", "",{"version":3,"sources":["webpack://src/Search/Search.css"],"names":[],"mappings":"AAAA;EACE,uBAAuB;EACvB,sBAAsB;AACxB;;AAEA;EACE,yBAAyB;EACzB,mBAAmB;EACnB,eAAe;EACf,YAAY;EACZ,kBAAkB;EAClB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,YAAY;AACd;AACA;EACE,qBAAqB;EACrB,gBAAgB;AAClB;;AAEA;EACE,mBAAmB;EACnB,uBAAuB;EACvB,kBAAkB;EAClB,mBAAmB;EACnB,mBAAmB;EACnB,aAAa;AACf","sourcesContent":["body {\r\n  background-color: white;\r\n  box-sizing: border-box;\r\n}\r\n\r\n.search-tweet {\r\n  border: 1px solid #1da1f2;\r\n  border-radius: 20px;\r\n  font-size: 20px;\r\n  padding: 7px;\r\n  padding-left: 20px;\r\n  margin-left: 350px;\r\n  margin-top: 30px;\r\n  /* outline: none; */\r\n  color: black;\r\n}\r\n.tweetFrame {\r\n  list-style-type: none;\r\n  margin-top: 50px;\r\n}\r\n\r\n.tweetBox {\r\n  margin-bottom: 20px;\r\n  border: 1px solid black;\r\n  margin-left: 300px;\r\n  margin-right: 300px;\r\n  border-radius: 30px;\r\n  padding: 15px;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -81,7 +92,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".container {\n  display: flex;\n  height: 100vh;\n  background-color: #e4e4e4;\n  overflow: hidden;\n}\n\n.big_bird {\n  width: 35em;\n  height: 35em;\n  margin-left: 100px;\n  margin-top: 200px;\n  float: right;\n  \n}\n\n.Header_text {\n  margin-left: 70px;\n  margin-top: 150px;\n  color: black;\n  font-size: 50px;\n}\n", "",{"version":3,"sources":["webpack://src/Welcome/Twitter.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,aAAa;EACb,yBAAyB;EACzB,gBAAgB;AAClB;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,kBAAkB;EAClB,iBAAiB;EACjB,YAAY;;AAEd;;AAEA;EACE,iBAAiB;EACjB,iBAAiB;EACjB,YAAY;EACZ,eAAe;AACjB","sourcesContent":[".container {\n  display: flex;\n  height: 100vh;\n  background-color: #e4e4e4;\n  overflow: hidden;\n}\n\n.big_bird {\n  width: 35em;\n  height: 35em;\n  margin-left: 100px;\n  margin-top: 200px;\n  float: right;\n  \n}\n\n.Header_text {\n  margin-left: 70px;\n  margin-top: 150px;\n  color: black;\n  font-size: 50px;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, ".container {\r\n  display: flex;\r\n  height: 100vh;\r\n  background-color: #e4e4e4;\r\n  overflow: hidden;\r\n}\r\n\r\n.big_bird {\r\n  width: 35em;\r\n  height: 35em;\r\n  margin-left: 100px;\r\n  margin-top: 200px;\r\n  float: right;\r\n  \r\n}\r\n\r\n.Header_text {\r\n  margin-left: 70px;\r\n  margin-top: 150px;\r\n  color: black;\r\n  font-size: 50px;\r\n}\r\n", "",{"version":3,"sources":["webpack://src/Welcome/Twitter.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,aAAa;EACb,yBAAyB;EACzB,gBAAgB;AAClB;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,kBAAkB;EAClB,iBAAiB;EACjB,YAAY;;AAEd;;AAEA;EACE,iBAAiB;EACjB,iBAAiB;EACjB,YAAY;EACZ,eAAe;AACjB","sourcesContent":[".container {\r\n  display: flex;\r\n  height: 100vh;\r\n  background-color: #e4e4e4;\r\n  overflow: hidden;\r\n}\r\n\r\n.big_bird {\r\n  width: 35em;\r\n  height: 35em;\r\n  margin-left: 100px;\r\n  margin-top: 200px;\r\n  float: right;\r\n  \r\n}\r\n\r\n.Header_text {\r\n  margin-left: 70px;\r\n  margin-top: 150px;\r\n  color: black;\r\n  font-size: 50px;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -103,10 +114,87 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n", "",{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT;;cAEY;EACZ,mCAAmC;EACnC,kCAAkC;AACpC;;AAEA;EACE;aACW;AACb","sourcesContent":["body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "body {\r\n  margin: 0;\r\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\r\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\r\n    sans-serif;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n}\r\n\r\ncode {\r\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\r\n    monospace;\r\n}\r\n", "",{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT;;cAEY;EACZ,mCAAmC;EACnC,kCAAkC;AACpC;;AAEA;EACE;aACW;AACb","sourcesContent":["body {\r\n  margin: 0;\r\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\r\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\r\n    sans-serif;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n}\r\n\r\ncode {\r\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\r\n    monospace;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\spira\\OneDrive\\Documents\\SDMM student files\\Segid, Yafet\\twitter\\Twitter-clone\\client\\node_modules\\css-loader\\dist\\runtime\\api.js'");
+
+/***/ }),
+
+/***/ "./node_modules/react-dev-utils/webpackHotDevClient.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/react-dev-utils/webpackHotDevClient.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\spira\\OneDrive\\Documents\\SDMM student files\\Segid, Yafet\\twitter\\Twitter-clone\\client\\node_modules\\react-dev-utils\\webpackHotDevClient.js'");
+
+/***/ }),
+
+/***/ "./node_modules/react-dom/index.js":
+/*!*****************************************!*\
+  !*** ./node_modules/react-dom/index.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\spira\\OneDrive\\Documents\\SDMM student files\\Segid, Yafet\\twitter\\Twitter-clone\\client\\node_modules\\react-dom\\index.js'");
+
+/***/ }),
+
+/***/ "./node_modules/react-router-dom/esm/react-router-dom.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
+  \***************************************************************/
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter, BrowserRouter, HashRouter, Link, NavLink */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\spira\\OneDrive\\Documents\\SDMM student files\\Segid, Yafet\\twitter\\Twitter-clone\\client\\node_modules\\react-router-dom\\esm\\react-router-dom.js'");
+
+/***/ }),
+
+/***/ "./node_modules/react/index.js":
+/*!*************************************!*\
+  !*** ./node_modules/react/index.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\spira\\OneDrive\\Documents\\SDMM student files\\Segid, Yafet\\twitter\\Twitter-clone\\client\\node_modules\\react\\index.js'");
+
+/***/ }),
+
+/***/ "./node_modules/react/jsx-dev-runtime.js":
+/*!***********************************************!*\
+  !*** ./node_modules/react/jsx-dev-runtime.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\spira\\OneDrive\\Documents\\SDMM student files\\Segid, Yafet\\twitter\\Twitter-clone\\client\\node_modules\\react\\jsx-dev-runtime.js'");
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\spira\\OneDrive\\Documents\\SDMM student files\\Segid, Yafet\\twitter\\Twitter-clone\\client\\node_modules\\style-loader\\dist\\runtime\\injectStylesIntoStyleTag.js'");
 
 /***/ }),
 
@@ -150,7 +238,7 @@ module.exports = content.locals || {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "../node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
 /* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Welcome_Welcome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Welcome/Welcome */ "./src/Welcome/Welcome.js");
@@ -158,7 +246,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Favorite_Favorite__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Favorite/Favorite */ "./src/Favorite/Favorite.js");
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "/Users/yafetsegid/Desktop/Twitter_2/client/src/App.js";
+var _jsxFileName = "C:\\Users\\spira\\OneDrive\\Documents\\SDMM student files\\Segid, Yafet\\twitter\\Twitter-clone\\client\\src\\App.js";
 
 
 
@@ -168,10 +256,10 @@ var _jsxFileName = "/Users/yafetsegid/Desktop/Twitter_2/client/src/App.js";
 
 
 function App() {
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["BrowserRouter"], {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["BrowserRouter"], {
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
       className: "header",
-      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Link"], {
         to: "/",
         className: "search home",
         children: "Home"
@@ -179,7 +267,7 @@ function App() {
         fileName: _jsxFileName,
         lineNumber: 16,
         columnNumber: 9
-      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Link"], {
         to: "/Search",
         className: "search",
         children: "Search"
@@ -187,7 +275,7 @@ function App() {
         fileName: _jsxFileName,
         lineNumber: 19,
         columnNumber: 9
-      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Link"], {
         to: "/Favorite",
         className: "search",
         children: "Favorites"
@@ -200,8 +288,8 @@ function App() {
       fileName: _jsxFileName,
       lineNumber: 12,
       columnNumber: 7
-    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], {
-      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Switch"], {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Route"], {
         exact: true,
         path: "/",
         component: _Welcome_Welcome__WEBPACK_IMPORTED_MODULE_3__["default"]
@@ -209,7 +297,7 @@ function App() {
         fileName: _jsxFileName,
         lineNumber: 27,
         columnNumber: 9
-      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Route"], {
         exact: true,
         path: "/Search",
         component: _Search_Search__WEBPACK_IMPORTED_MODULE_4__["default"]
@@ -217,7 +305,7 @@ function App() {
         fileName: _jsxFileName,
         lineNumber: 28,
         columnNumber: 9
-      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Route"], {
         exact: true,
         path: "/Favorite",
         component: _Favorite_Favorite__WEBPACK_IMPORTED_MODULE_5__["default"]
@@ -288,7 +376,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/yafetsegid/Desktop/Twitter_2/client/src/Favorite/Favorite.js";
+var _jsxFileName = "C:\\Users\\spira\\OneDrive\\Documents\\SDMM student files\\Segid, Yafet\\twitter\\Twitter-clone\\client\\src\\Favorite\\Favorite.js";
 
 
 
@@ -438,7 +526,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/yafetsegid/Desktop/Twitter_2/client/src/Search/Search.js";
+var _jsxFileName = "C:\\Users\\spira\\OneDrive\\Documents\\SDMM student files\\Segid, Yafet\\twitter\\Twitter-clone\\client\\src\\Search\\Search.js";
 
 
 
@@ -449,7 +537,7 @@ var _jsxFileName = "/Users/yafetsegid/Desktop/Twitter_2/client/src/Search/Search
 const Search = () => {
   // const { onSearch } = props;
   const [data, setData] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]);
-  const [searchText, setSearchText] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(""); // useEffect(() => {
+  const [searchText, setSearchText] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(''); // useEffect(() => {
   //   // getTweets();
   //   // handleInput();
   // }, []);
@@ -465,9 +553,10 @@ const Search = () => {
   // }
 
   function handleInput(e) {
-    const searchText = e.target.value;
-    setSearchText(searchText);
-    axios__WEBPACK_IMPORTED_MODULE_2___default.a.post(`/search?text=${searchText}`).then(response => {
+    e.preventDefault();
+    console.log('searchText: ', searchText);
+    axios__WEBPACK_IMPORTED_MODULE_2___default.a.get(`/api/search/?text=${searchText}`).then(response => {
+      console.log('data: ', response);
       setData(response.data.statuses);
     }).catch(error => {
       console.log(error);
@@ -479,12 +568,19 @@ const Search = () => {
       className: "listBox",
       children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("span", {
         className: "search_box0",
-        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("input", {
-          onChange: handleInput,
-          value: searchText,
-          className: "search-tweet",
-          type: "text",
-          placeholder: "Search Twitter..."
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("form", {
+          onSubmit: handleInput,
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("input", {
+            value: searchText,
+            className: "search-tweet",
+            type: "text",
+            placeholder: "Search Twitter...",
+            onChange: e => setSearchText(e.target.value)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 47,
+            columnNumber: 13
+          }, undefined)
         }, void 0, false, {
           fileName: _jsxFileName,
           lineNumber: 46,
@@ -500,7 +596,7 @@ const Search = () => {
         children: "Search"
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 54,
+        lineNumber: 56,
         columnNumber: 9
       }, undefined)]
     }, void 0, true, {
@@ -515,17 +611,17 @@ const Search = () => {
           children: person.text
         }, person.id, false, {
           fileName: _jsxFileName,
-          lineNumber: 61,
+          lineNumber: 63,
           columnNumber: 13
         }, undefined))
       }, void 0, false, {
         fileName: _jsxFileName,
-        lineNumber: 59,
+        lineNumber: 61,
         columnNumber: 9
       }, undefined)
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 60,
       columnNumber: 7
     }, undefined)]
   }, void 0, true);
@@ -579,7 +675,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Twitter_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Twitter_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/yafetsegid/Desktop/Twitter_2/client/src/Welcome/Welcome.js";
+var _jsxFileName = "C:\\Users\\spira\\OneDrive\\Documents\\SDMM student files\\Segid, Yafet\\twitter\\Twitter-clone\\client\\src\\Welcome\\Welcome.js";
 
 
 
@@ -679,7 +775,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reportWebVitals__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./reportWebVitals */ "./src/reportWebVitals.js");
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/yafetsegid/Desktop/Twitter_2/client/src/index.js";
+var _jsxFileName = "C:\\Users\\spira\\OneDrive\\Documents\\SDMM student files\\Segid, Yafet\\twitter\\Twitter-clone\\client\\src\\index.js";
 
 
 
@@ -742,11 +838,11 @@ const reportWebVitals = onPerfEntry => {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/yafetsegid/Desktop/Twitter_2/client/node_modules/react-dev-utils/webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
-module.exports = __webpack_require__(/*! /Users/yafetsegid/Desktop/Twitter_2/client/src/index.js */"./src/index.js");
+__webpack_require__(/*! C:\Users\spira\OneDrive\Documents\SDMM student files\Segid, Yafet\twitter\Twitter-clone\client\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\spira\OneDrive\Documents\SDMM student files\Segid, Yafet\twitter\Twitter-clone\client\src\index.js */"./src/index.js");
 
 
 /***/ })
 
-},[[0,"runtime-main","vendors~main"]]]);
+},[[0,"runtime-main"]]]);
 //# sourceMappingURL=main.chunk.js.map

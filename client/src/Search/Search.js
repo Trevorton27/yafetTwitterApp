@@ -1,13 +1,13 @@
-import React from "react";
-import "./Search.css";
-import axios from "axios";
-import { useState, useEffect } from "react";
+import React from 'react';
+import './Search.css';
+import axios from 'axios';
+import { useState, useEffect } from 'react';
 
 const Search = () => {
   // const { onSearch } = props;
 
   const [data, setData] = useState([]);
-  const [searchText, setSearchText] = useState("");
+  const [searchText, setSearchText] = useState('');
 
   // useEffect(() => {
   //   // getTweets();
@@ -26,12 +26,12 @@ const Search = () => {
   // }
 
   function handleInput(e) {
-    const searchText = e.target.value;
-    setSearchText(searchText);
-
+    e.preventDefault();
+    console.log('searchText: ', searchText);
     axios
-      .post(`/search?text=${searchText}`)
+      .get(`/api/search/?text=${searchText}`)
       .then((response) => {
+        console.log('data: ', response);
         setData(response.data.statuses);
       })
       .catch((error) => {
@@ -41,24 +41,26 @@ const Search = () => {
 
   return (
     <>
-      <div className="listBox">
-        <span className="search_box0">
-          <input
-            onChange={handleInput}
-            value={searchText}
-            className="search-tweet"
-            type="text"
-            placeholder="Search Twitter..."
-          />
+      <div className='listBox'>
+        <span className='search_box0'>
+          <form onSubmit={handleInput}>
+            <input
+              value={searchText}
+              className='search-tweet'
+              type='text'
+              placeholder='Search Twitter...'
+              onChange={(e) => setSearchText(e.target.value)}
+            />
+          </form>
         </span>
-        <button type="submit" onClick={handleInput}>
+        <button type='submit' onClick={handleInput}>
           Search
         </button>
       </div>
       <div>
-        <ul className="tweetFrame">
+        <ul className='tweetFrame'>
           {data.map((person) => (
-            <li className="tweetBox" key={person.id}>
+            <li className='tweetBox' key={person.id}>
               {person.text}
             </li>
           ))}
